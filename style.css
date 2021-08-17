@@ -1,0 +1,44 @@
+body {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 10px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #55f;
+}
+
+ul {
+    list-style-type: '-';
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0.7em;
+}
+
+ul.links {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+}
+
+.links li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
